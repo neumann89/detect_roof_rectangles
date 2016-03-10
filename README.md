@@ -1,0 +1,1 @@
+# detect_roof_rectangles
