@@ -19,6 +19,7 @@ void cmvisionBlobsReceived(const cmvision::Blobs& blobsIn) {
 		m[blobsIn.blobs[i].name] = blobsIn.blobs[i];
 	}
 
+
 	for (it_type iterator = m.begin(); iterator != m.end(); ++iterator) {
 		blobsOut.blobs.push_back(iterator->second);
 		ROS_INFO_STREAM(
