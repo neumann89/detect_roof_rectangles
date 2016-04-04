@@ -86,6 +86,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp cmvision)
 #   cfg/DynReconf2.cfg
 # )
 
+
 ###################################
 ## catkin specific configuration ##
 ###################################
@@ -98,7 +99,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp cmvision)
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES hello_world
-#  CATKIN_DEPENDS other_catkin_pkg
+  CATKIN_DEPENDS cmvision
 #  DEPENDS system_lib
 )
 
